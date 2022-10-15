@@ -1,0 +1,101 @@
+ <section id="about">
+        <div class="about">
+            <div class="small-continer">
+                <div class="row">
+                <div class="col-lg-5">
+                    <h3>About Us</h3>
+                    <img src="img/logo.jpeg">
+                </div>
+                    <div class="col-lg-4 offset-lg-1">
+                        <h2>Information</h2>
+                            <p>KWAME Printing Service:
+                                For all your printing need's we are here for you.
+                                Print your personalized hoodies, t-shirts, sweaters, caps and more.
+                                Allow us to help you build and grow your brand.
+                                Vinyl printing
+                                Flock printing
+                                Screen printing
+                                We are Fashion Designer's, and Photographer's too</p>
+                                <a href="#contact" class="btn">Get in Touch</a>
+                        </div>  
+                </div>
+                <div></div>
+                <div class="row">
+                    <div class="col-lg-5">
+                    <h3>location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3387.3090275735194!2d26.8764!3d-31.8982!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e623e60cff6d75b%3A0xa043ab1f6833529d!2s22%20Cathcart%20St%2C%20Queenstown%2C%205320!5e0!3m2!1sen!2sza!4v1659697154333!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </section>
+
+
+
+<section id="categories">
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-lg-4 offset-lg-1">
+                            <img src="img/kwame bayano.JPG">
+                        </div>
+                        <div class="col-lg-4 offset-lg-1">
+                            <h1>Kwame Bayano</h1>
+                            <p>KWAME Printing Service:<br> For all your printing need's we are here for you.</p>
+            
+                            <a href="#about" class="btn">Find Out More &#8594;</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="content">
+                                    <img src="img/T-shirts 1.jpg">
+                                </div>
+                                    <a href="#" class="btn">Know More</a>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="content">
+                                    <img src="img/T-shirts 2.jpg">
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="content">
+                                    <img src="img/T-shirts 3.jpg">
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="content">
+                                    <img src="img/T-shirts 4.jpg">
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="content">
+                                    <img src="img/T-shirts 5.jpg">
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="content">
+                                    <img src="img/T-shirts 6.jpg">
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
