@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --about: #87cfd6;
+    --services: #00b9c6;
+    --location: #1a1423;
+    --body: #dfe0e2;
+    --brand: #f7009f;
+    --white: #dfe0e2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:"Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--about);
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family:"Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+}
+
+a {
+    color: var(--body);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+.link-more {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 1px;   
+}
+
+.link-more .icon {
+    transition: all 0.4s ease;
+}
+
+.link-more:hover .icon {
+    transform: translateX(8px);
+
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/*NAVBAR*/
+.navbar {
+     background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.2));
+}
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+
+.navbar-brand {
+    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+/*HEADER*/
+#head {
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0)), url(../img2/suad-kamardeen-pn2-F5lKM-U-unsplash.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#head p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/*BTN*/
+.btn {
+    padding: 16px 36px;
+    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s ease;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+}
+
+/*ABOUT*/
+#about {
+    position: relative;
+}
+
+#about::after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    background-color: var(--brand);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#about h6 {
+    color: var(--brand);
+}
+
+#about h1 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/*INTRO*/
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.intro h6 {
+    color: var(--brand);
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.cta-btns {
+    margin-top: 60px;
+}
+
+/*SERVICES*/
+#services {
+    background-color: var(--services);
+}
+
+#services .service .content {
+    padding: 32px;
+}
+
+#services .service p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/*LOCATION*/
+#location {
+    background-color: var(--location);
+    background: linear-gradient(to left, var(--services), var(--location));
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#location p{
+    text-align: left;
+}
